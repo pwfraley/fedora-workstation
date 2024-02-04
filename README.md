@@ -14,8 +14,8 @@ sudo dnf install ansible python3-ansible-lint
 
 ### Desktop
 
+- Base
 - Office
-  - Base
   - Bookkeeping
   - Management
 - IT
@@ -32,7 +32,6 @@ sudo dnf install ansible python3-ansible-lint
 ### Server
 
 - DockerServer
-  - Office
 - PiHole (AdBlocking)
 
 
