@@ -1,0 +1,8 @@
+[developer]
+x1nano ansible_host=localhost ansible_connection=local
+
+[app:children]
+developer
+
+[app:vars]
+ansible_python_interpreter=/usr/bin/python3

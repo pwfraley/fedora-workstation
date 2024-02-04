@@ -1,0 +1,30 @@
+---
+# User
+local_user: "frpa"
+local_user_group: "frpa"
+local_user_home: "/home/{{ local_user }}"
+
+# Services
+enable_fail2ban: true
+enable_sshd: true
+
+# Extras
+install_extra_fonts: true
+
+# Thirdparty
+install_rpmfusion: true
+
+# Packages
+install_libreoffice: true
+install_onlyoffice: true
+install_chrome: true
+install_vscode: true
+install_git: true
+install_docker: true
+install_docker_compose: true
+install_vlc: true
+install_gimp: true
+install_inkscape: true
+
+# python3
+ansible_python_interpreter: /usr/bin/python3
